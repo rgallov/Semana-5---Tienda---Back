@@ -1,0 +1,20 @@
+{
+    "development": {
+        "username": "WOqwhwiIP5",
+        "password": "zqZbuNSQOw",
+        "database": "WOqwhwiIP5",
+        "host": "remotemysql.com",
+        "dialect": "mysql"
+    },
+    "test": {
+        "dialect": "sqlite",
+        "storage": "./database.sqlite3"
+    },
+    "production": {
+        "username": "WOqwhwiIP5",
+        "password": "zqZbuNSQOw",
+        "database": "WOqwhwiIP5",
+        "host": "remotemysql.com",
+        "dialect": "mysql"
+    }
+}
