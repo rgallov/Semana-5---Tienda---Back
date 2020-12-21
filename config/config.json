@@ -1,9 +1,9 @@
 {
     "development": {
-        "username": "WOqwhwiIP5",
-        "password": "zqZbuNSQOw",
-        "database": "WOqwhwiIP5",
-        "host": "remotemysql.com",
+        "username": "root",
+        "password": "Mysql4dm1n",
+        "database": "proyectof_s4",
+        "host": "127.0.0.1",
         "dialect": "mysql"
     },
     "test": {
