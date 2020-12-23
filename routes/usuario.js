@@ -10,7 +10,7 @@ const router = routerx();
 router.post('/add', auth.verifyAdministrador, usuarioController.add);
 // router.post('/add', usuarioController.add);
 router.get('/query', auth.verifyAdministrador, usuarioController.query);
-router.get('/queryUserAuth', auth.verifyAdministrador, usuarioController.queryUserAuth);
+router.get('/queryUserAuth', auth.verifyUsuario, usuarioController.queryUserAuth);
 router.get('/list', auth.verifyAdministrador, usuarioController.list);
 router.put('/update', auth.verifyAdministrador, usuarioController.update);
 router.delete('/remove', auth.verifyAdministrador, usuarioController.remove);
